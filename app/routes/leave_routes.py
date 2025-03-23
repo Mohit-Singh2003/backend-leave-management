@@ -1,19 +1,19 @@
 from fastapi import APIRouter, Depends, HTTPException, status
-from services.leave_service import (
+from ..services.leave_service import (
     create_leave_request,
     get_all_leaves,
     update_leave_status,
 )
-from models import LeaveRequest, LeaveResponse
-from utils import get_current_user
+from ..models import LeaveRequest, LeaveResponse
+from ..utils.auth_utils import get_current_user
 
-router = APIRouter(
+leave_router = APIRouter(
     prefix="/leaves",
     tags=["Leaves"]
 )
 
 # POST /leaves/submit -> Submit a leave request (Employee)
-@router.post("/submit", status_code=status.HTTP_201_CREATED)
+@leave_router.post("/submit", status_code=status.HTTP_201_CREATED)
 async def submit_leave(leave: LeaveRequest, user=Depends(get_current_user)):
     if user['role'] != 'employee':
         raise HTTPException(status_code=403, detail="Only employees can submit leaves.")
@@ -23,14 +23,14 @@ async def submit_leave(leave: LeaveRequest, user=Depends(get_current_user)):
 
 
 # GET /leaves/ -> Manager or Employee can view leave requests
-@router.get("/", response_model=list[LeaveResponse])
+@leave_router.get("/", response_model=list[LeaveResponse])
 async def list_leaves(user=Depends(get_current_user)):
     leaves = await get_all_leaves(user)
     return leaves
 
 
 # PUT /leaves/{leave_id}/{status} -> Manager updates status
-@router.put("/{leave_id}/{status}", status_code=status.HTTP_200_OK)
+@leave_router.put("/{leave_id}/{status}", status_code=status.HTTP_200_OK)
 async def change_leave_status(
     leave_id: str,
     status: str,
