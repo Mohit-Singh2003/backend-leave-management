@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "leave-management-app-ba528",
+  "private_key_id": "70ce14bc2da23f29906d73d7aeede7d43e90d2bd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDOIR1vwH69vID2\nIczFZ1ov7r60v4tcabgPbw/9rQYuhj3yYkzRe1B3hZ9Rd9NzzpIlbZy3JtSsEg8L\nOO//ry/s+OdAr3dPqVIGNz8Ukg+shUJ6gPFHbZYvgDTuCVpNOp4sB6aoR4e9W7Lt\nICcu/ngnpMoiFWHLGhPdXxnWl43eMCMvo+p6X63LGwHOftAj9oGkZH184UbOTE9A\nirsHOaJRSVK4skbBjKgdsWDFt08CEaG1YvY/SRkvUxxyfdSebCyAA/sMW+2+e+4J\nRm6N2TMe8L0WZykO/vmMMZyZbjowbPtivbnS/DnlfMl6eiTzV8zBG+eSrpnjhyul\ner831VBvAgMBAAECggEAYxP9vzJqeS67WhNjBtunuPRrzBtplBDovNpoeEmLeB9k\ndTYUsHgydFDRBGqxQ6/eBYmLU2mhvdesTXufuGlvgtsc5LWyhqLfX0d81ZljWUxw\naMvDrc6Z6tkYF/Z85jQvxQAkdixzrWv/NAVJcEg2Xu/RjNJ0QBiXxccpd0E/mrTx\npwUukQtTfw79EYqSnE1VBtzKTk+Kr35/MBlptISvQBLN3WQ9Ij1Hwk1kfFXVuD3W\nJhVVMPD8Roy0UcqbIOhoJGZ9OkOaL6+8docX1+paktaKyk1Pf87SvCttgFfiWe6B\n81rzomdzCuQNd2h+SPWhQ0Ual9JWbJH78xNgmeM1aQKBgQDukVaeAwmP7yqF9ldB\nVgmp9mzJiJ/s2ssbvW6eAjiQHecsKxdivOU3LwXLg4czgjEwnKUynFpw4lAKVw5G\nKzIKz5DhaiuScAeexugl1xFC4chf7uUzX87GBgr6ykqHMTLIqegebYmcGyLZKgb3\n7A4L9BVF4F+5+TL1wc1itOd6RQKBgQDdMPuJ//jPLmGO2TSuZvGaImBVSw7eQQYo\nM/mZyivxA1y0yReCgG/e38GoLgXdP4htGVSieBQer8a5BJmrd2qGndvQ5r9RgNc1\n7RT4RoygKBWJizScc7CdiYfB2sxUzTVfLzebd251wWMDbLDLk8Ry2aK28tGREhLN\naWRFsH9FIwKBgGg4+GVJoGjQLHyf1RjHFKu662XUGUHph+gThvrir4FOfwrNvIa3\nTVAha9+wE2XOT90T4hvNMLm2NQ9/Xs4K2u7cJUhFEMoFxV55OTwmy/SzHM3EWT9r\ncLMUOsG7lHmhZbVCfRSl+ANJ25yR/r9a0fwo4w5G6qsdkkTJKQghTisdAoGAQPP6\nWarmOIjJMzaLZs9qETYZDdLtucxkb3fbyxJ4Vt0C4z/N/I+UymDwsF9bb34RpN/0\nX4Vdeylo9LnqGlUF3iQLAcxQ0DFCgV5ucv3cm8dJk8tiFrNOYOSbDg0fRaPBEYN/\nE9M9h6zTU5UeUZnB7WwFgS3K5ovlI5bYUDKlHPsCgYBhstSAicwepvAEuvUTloA/\ns/U8mNXBVbFFBA7tJnz9TVqYI3/dGYe1Uw0JaOXjz+pWlbZF7Kt2Km8BElxzb9Pd\nEIjkgyjCISQDXgPRNymvYMkdGFPvxzvf9G3kS/zDkGUeqJ/4BhpYnRztewyePu20\ndeD7o5SKcKnPkxTd1T3Uag==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@leave-management-app-ba528.iam.gserviceaccount.com",
+  "client_id": "103345074663365467143",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40leave-management-app-ba528.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
